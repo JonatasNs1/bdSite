@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: red;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color:#ffffff;
+    text-transform: uppercase;
+}
+main{
+    background-color: blue;
+    flex-grow: 1;
+}
+
+footer{
+    background-color: blueviolet;
+}
+
+body{
+    height: 100vh; 
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+}
+.container-cards{
+        display: flex;
+        gap:15px;
+        flex-wrap: wrap; /* quebra ou não quebra*/
+        padding: 0 15px;
+
+}
+
+.primeira{
+    background-color: springgreen;
+    width: 400px;
+    height: 300px;
+}
+
+h2{
+    background-color: violet;
+    width: inherit;
+    height: 70px;
+}
