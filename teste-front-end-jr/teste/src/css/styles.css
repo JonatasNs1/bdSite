@@ -1,0 +1,556 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:sans-serif;
+  }
+
+.principal{
+    width: 100%;
+    min-height: 100px;
+    height:auto;
+    /* background-color:red; */
+    /* position: fixed; */
+}
+
+
+.container{
+    width: 1280px;
+    min-height:144px;
+    height: inherit;
+   margin-right: auto;
+   margin-left: auto;
+   /* background-color:green; */
+}
+
+.promocao{
+    width:1280px;
+    height:32px;
+    /* background-color:red; */
+    display:flex;
+    justify-content:center;
+
+}
+
+.compraPromocoes{
+    width:158px;
+    height:20px;
+    color:#9F9F9F;
+    display:flex;
+    justify-content:center;
+    
+}
+ .buttonCompra{
+    width:18.38px;
+    height:18.38px;
+    padding-top:9.75px;
+    text-align:center;
+    font-size:12px;
+    
+    /* color:#ffffff; */
+    /* background-color:green; */
+}
+
+.compraPromocoes p{
+    width:129px;
+    height:18px;
+    padding-top:11px;
+    padding-left:6px;
+    /* text-align:center; */
+    font-size:0.6em;
+    /* line-height:18px; */
+    color:#9F9F9F;
+
+
+} 
+.linkPromocao{
+    color:#F71963;
+    font-weight:bold;
+}
+
+.busca{
+    width:1280px;
+    height:72px;
+    /* background-color:red; */
+    display:flex;
+    direction:row;
+}
+
+.logo{
+    width:139px;
+    height:50.64px;
+    margin-left:56px;
+    /* padding-top:10px; */
+    /* background-color:blue; */
+}
+
+.campoBusca input{
+    width: 657px;
+    height:48px;
+    margin-left:70px;
+    margin-top:10px;
+    /* background-color: #F7F5F2; */
+    color:#F5F5F5;
+    outline: 0;
+    border: none;
+    border-radius: 10px;
+}
+
+.campoBusca input:hover{
+    color: black;
+    cursor: text;
+}
+
+input::placeholder {
+    color: #9F9F9F;
+    
+}
+.buttonPesquisa{
+    width:28px;
+    height:28px;
+    /* padding-top:54px; */
+    background-color:transparent;
+    border:0;
+
+    cursor:pointer;
+    transition:transform 0.5;
+}
+
+.buttonPesquisa:hover{
+    transform:scale(1.2);
+}
+.divIcones{
+    width:150px;
+    margin-left:60px;
+    /* background-color:blue; */
+}
+
+.icones{
+    width:24px;
+    height:24px;
+    padding-top:16px;
+    padding-left:10px;
+    padding-right:2px;
+}
+
+.menu{
+    width:1280px;
+    height:40px;
+    /* background-color:green; */
+    display:flex;
+    align-items:center;
+  
+    justify-content:center;
+ 
+}
+
+.listaMenu{
+    width:1141px;
+    height:20px;
+       display:flex;
+    direction:row;
+    /* background-color:blue; */
+    
+}
+
+.listaMenu li{
+    width: 121px;
+    height: 18px;
+    list-style: none;
+    color:#9F9F9F;
+    line-height:18px;
+    font-size: 0.6em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left:34px;
+    /* background-color:red; */
+
+}
+
+.iconAssinatura{
+    margin-left:18px;
+    color:#9F9F9F;
+   
+    display:flex;
+    direction:row; 
+
+    
+}
+
+.banner{
+    width:1280px;
+    height:390px;
+    /* background-color:red; */
+    background:url("../assets/banner.png");
+
+}
+.banner img{
+    width:inherit;
+    height: inherit;
+}
+
+.descricaoPromocao{
+width: 822px;
+height: 128px;
+padding-top: 55px;
+padding-left: 89px;
+
+
+}
+
+.descricaoPromocao p{
+    font-size: 48px;
+    font-weight: bold;
+    line-height:72px;
+    color: #FFFFFF;
+  
+}
+
+.buttonVerProduto{
+    margin-top:20px;
+    width: 227px;
+    height:60px;
+    background-color:#F71963;
+    border-radius: 5px;
+    outline: 0;
+    font-weight:bold;
+    font-size:18px;
+    color:#FFFFFF;
+    border:0;
+    align-text:center;
+}
+
+.buttonVerProduto:hover{
+    cursor:pointer;
+}
+
+.opcoes{
+    width:1280px;
+    height:190px;
+    /* background-color:red; */
+    display:flex;
+    justify-content:center;
+    direction:row;
+    
+}
+.cards{
+    width:128px;
+    height:128px;
+    background-color:#FFFFFF;
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.22);
+    border-radius: 10px;
+    margin-top:25px;
+    margin-left:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.imgCards{
+    width:61px;
+    height:61px;
+     
+}
+
+.produtosRelacionados{
+
+    width:1280px;
+    height:72px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    direction:column;
+    /* background-color:red; */
+  
+}
+
+.opcoesDeMenu{
+    width:1264px;
+    height:37px;
+    display:flex;
+    direction:row;
+      align-items:center;
+     justify-content:center; 
+    /* background-color:red; */
+}
+
+.listasOpcoesMenu{
+    width:1141px;
+    height:20px;
+    display:flex;
+    direction:row;
+    /* background-color: blue; */
+
+}
+
+.listasOpcoesMenu li{
+    width: 211.5px;
+    height: 30px;
+    list-style: none;
+    color:#9F9F9F;
+    text-align: center;
+    text-transform: uppercase;
+    /* margin-left:34px; */
+    border: 1px solid #BDBDBD;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    /* background-color:green; */
+}
+
+.produtosRelacionados h1{
+    width: 350px;
+    height:45px;
+    fontWeight: 'bold';
+    font-size: 30px;
+    color: #F71963;
+    text-align:center;
+    padding-top:30px;
+}
+
+.verTodos {
+    width: 1280px;
+    height:23px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+      
+     
+      /* background-color:blue; */
+
+    
+}
+
+.verTodos h4{
+    font-weight: bold;
+    font-size: 15px;
+    color:#3F3F40;
+    text-align:center;
+}
+
+.cardsProdutos{
+    width:1280px;
+    height:500px;
+    
+    display:flex;
+    /* align-items: center;
+    justify-content:center; */
+    direction:row;
+    overflow-x:auto;
+    scroll-behavior:smooth;
+    /* background-color: blue; */
+}
+
+.cardsProdutos::-webkit-scrollbar{
+    display:none;
+}
+
+.cardCelulares{
+    width:270px;
+    height:480px;
+    border-radius:10px;
+    margin-left:50px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 19px rgba(0, 0, 0, 0.22);
+    display:flex;
+    /* align-items: center;
+    justify-content:center; */
+    direction:row;
+}
+
+.subCardCelulares{
+    width:240px;
+    height:inherit;
+    /* background: red; */
+    margin-top:17px;
+    margin-left:16px;
+    
+}
+
+.imagemCardCelulares{
+    width: 240px;
+    height:220px;
+   margin-left:-23px;
+    /* margin-left:11px; */
+    /* background-color:blue; */
+}
+
+.nomeCardCelulares p{
+    height: 24px;
+    margin-top:7px;
+    color:#808080;
+    font-weight: bold;
+    font-size:15px;
+    color:#3F3F40;
+    /* background-color:blue; */
+}
+
+.descricaoCardCelulares p{
+  
+    height: 24px;
+    margin-top:7px;
+    color:#808080;
+    font-weight: bold;
+    font-size:15px;
+    color:#3F3F40;
+    /* background-color:blue; */
+}
+
+.jurosCardCelulares p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: #3F3F40;
+}
+
+.precoCardCelulares{
+    width: 86px;
+    height: 30px;
+    margin-top:15px;
+    margin-bottom:10px;
+    /* margin-left:11px; */
+    font-weight: bold;
+    font-size: 20px;
+    color: #3F3F40;
+    /* background-color:blue; */
+}
+
+.valorAntesCardCelulares{
+    width:166px;
+    height:18px;
+    margin-top:5px;
+    /* margin-left:11px; */
+    font-weight: bold;
+    font-size: 16px;
+    color: #808080;
+    text-decoration-line: line-through;
+    /* background-color:blue; */
+}
+
+.freteCardCelulares{
+    width:68px;
+    height:18px;
+    margin-top:5px;
+    margin-left:11px;
+    color:#F71963;
+    font-weight: bold;
+    font-size: 12px;
+    /* background-color:blue; */
+}
+
+.buttonCardCelulares button{
+    width:220px;
+    height:44px;
+    background-color: #F71963;
+    border-radius: 4px;
+    outline: 0;
+    font-weight:bold;
+    font-size:14px;
+    color:#FFFFFF;
+    border:0;
+    align-text:center;
+    text-transform: uppercase;
+}
+
+.buttonsSetas{
+    width:100%;
+    text-align:center;
+    /* transform: translateX(48%) ; */
+
+}
+
+.buttonsSetas button{
+    background-color: transparent;
+    border:none;
+    cursor:pointer;
+    /* position:fixed; */
+    
+}
+
+.setaDireita{
+     transform: translate(630px, -300px);
+}
+.setaEsquerda{
+    transform: translate(-630px, -300px);
+}
+
+.buttonsSetas .setaDireita .setaEsquerda{
+    cursor:pointer;
+     
+}
+
+.parceiros{
+    width:1280px;
+    height:350px;
+    /* background-color: blue; */
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    direction:row;
+}
+
+.parceirosImagem{
+    width: 520px;
+    height:350px;
+    margin-left:70px;
+    margin-right:70px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0.01%, #000000 85.04%);
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    border-radius: 20px;
+    background:url("../assets/parceiros.png");
+}
+
+.textoParceiros{
+    width:195px;
+    height:60px;
+    padding-top:122px;
+    padding-left:30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.descricaoParceiros{
+    width: 181px;
+height: 48px;
+padding-left: 30px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+color:#FFFFFF;
+
+
+}
+
+.buttonParceiros button{
+    width: 131px;
+    height: 48px;
+    margin-left:30px;
+    margin-top:25px;
+    /* padding-left: 30px; */
+    background-color: #F71963;
+    border-radius: 10px;
+    outline: 0;
+    font-weight:bold;
+    font-size:15px;
+    color:#FFFFFF;
+    border:0;
+    align-text:center;
+    text-transform: uppercase;
+}    
+
+
+
+
+
+
